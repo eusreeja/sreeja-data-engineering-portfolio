@@ -23,8 +23,8 @@
 
 | Project | Technologies | Key Achievement |
 |---------|--------------|-----------------|
-| [ServiceNow Partner Program Migration](projects/snowflake-migration) | Snowflake, PySpark, DBT | 30% storage optimization |
-| [Fidelity Data Lake Modernization](projects/delta-lake) | Delta Lake, Databricks, Kafka | 50% faster data retrieval |
+| [Partner Program Migration](projects/snowflake-migration) | Snowflake, PySpark, DBT | 30% storage optimization |
+| [Data Lake Modernization](projects/delta-lake) | Delta Lake, Databricks, Kafka | 50% faster data retrieval |
 | [Insurance Data Automation](projects/insurance-automation) | Azure, Delta Lake, Power BI | 40% efficiency improvement |
 
 ### Skills Demonstrations
