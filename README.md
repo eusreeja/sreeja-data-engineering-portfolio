@@ -64,14 +64,14 @@ Building scalable cloud data platforms, real-time streaming systems, and modern 
 
 # 🌍 Professional Highlights
 
-- Migrated 500+ TB SAP HANA workloads to Snowflake with 30% storage optimization
-- Delivered PB-scale enterprise data lake and cloud migration solutions for Fortune 500 clients
-- Built near real-time streaming analytics pipelines using Kafka & Spark
-- Designed scalable multi-cloud data platforms across Azure, AWS, and Snowflake
-- Implemented modern Data Mesh and Lakehouse architectures
-- Modernized legacy enterprise systems into scalable cloud-native data platforms
-- Delivered high-performance analytics and reporting solutions for global enterprises
-  
+- Led large-scale SAP HANA → Snowflake migrations involving 500+ TB of enterprise data with 30% storage optimization  
+- Delivered PB-scale cloud data lake and modernization programs for Fortune 500 organizations  
+- Built scalable near real-time streaming analytics platforms using Kafka, Spark, and Delta Lake  
+- Designed and implemented enterprise-grade multi-cloud data platforms across Azure, AWS, and Snowflake  
+- Implemented modern Lakehouse, Medallion, and Data Mesh architectures for scalable analytics ecosystems  
+- Modernized legacy enterprise systems into cloud-native, distributed data platforms  
+- Developed high-performance ETL/ELT pipelines and analytics solutions enabling faster business insights and reporting  
+- Experienced in building scalable, resilient, and production-grade data engineering solutions for global enterprises   
 ---
 
 ### Featured Projects
