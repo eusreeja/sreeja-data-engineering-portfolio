@@ -50,11 +50,15 @@ Building scalable cloud data platforms, real-time streaming systems, and modern 
 
 ## 🏗 Architecture Interests
 
-- Modern Data Stack
-- Medallion Architecture
-- Data Mesh
-- Real-Time Analytics
-- Distributed Systems
+
+- Modern Data Stack & Cloud-native Data Platforms  
+- Lakehouse & Medallion Architecture  
+- Data Mesh & Distributed Data Systems  
+- Real-Time Streaming & Event-driven Analytics  
+- Scalable ETL/ELT Pipeline Design  
+- Enterprise Data Warehousing  
+- High-performance Analytics Architecture  
+- Big Data Processing & Distributed Computing  
 
 ---
 
