@@ -30,12 +30,19 @@ Building scalable cloud data platforms, real-time streaming systems, and modern 
 
 | Category | Technologies |
 |---|---|
-| Data | Snowflake, Delta Lake, DBT |
-| Processing | PySpark, Spark Streaming |
-| Streaming | Kafka |
-| Cloud | Azure, AWS |
-| Databases | Oracle, SAP HANA, MongoDB |
-| Visualization | Power BI, Tableau |
+| Data Engineering | Snowflake, Delta Lake, DBT, Data Vault, Lakehouse, Data Mesh, Data Warehousing |
+| Processing & Big Data | PySpark, Spark Streaming, Hadoop, Databricks SQL |
+| Streaming & Messaging | Kafka, SQS |
+| Cloud Platforms | Microsoft Azure, AWS |
+| Cloud Services | Azure Databricks, Azure Data Factory, Azure Data Lake Storage Gen2, AWS Glue, AWS S3, Athena |
+| Databases | Snowflake, SAP HANA, Oracle, SQL Server, DB2, MySQL, MongoDB, Redshift |
+| ETL / ELT Tools | DBT, Airflow, IBM DataStage, Informatica IICS, Pentaho, Matillion |
+| Programming Languages | Python, SQL, PLSQL, JavaScript, Shell Scripting |
+| DevOps & CI/CD | Docker, Kubernetes, Jenkins, Concourse, Azure DevOps, Git, Bitbucket |
+| Data Governance & Catalog | Collibra, Alation |
+| Visualization & BI | Power BI, Tableau, SAP Business Objects |
+| Development Tools | Jupyter Notebook, SSMS, Oracle SQL Developer |
+| Methodologies | Agile, Scrum, CI/CD, Real-Time Analytics |
 
 ---
 
