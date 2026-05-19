@@ -17,12 +17,14 @@ Building scalable cloud data platforms, real-time streaming systems, and modern 
 
 ## 💡 What I Work On
 
-✔ Data Engineering  
-✔ ETL / ELT Pipelines  
-✔ Lakehouse Architecture  
-✔ Streaming Analytics  
-✔ Cloud Migration  
-✔ Data Warehousing  
+✔ Data Engineering & ETL/ELT Pipelines  
+✔ Snowflake & Databricks Solutions  
+✔ Lakehouse & Data Mesh Architecture  
+✔ Real-Time Streaming with Kafka & PySpark  
+✔ Cloud Migration & Data Modernization  
+✔ Data Warehousing & Analytics Engineering  
+✔ Multi-cloud Platforms (Azure & AWS)  
+✔ Scalable Enterprise Data Solutions   
 
 ---
 
