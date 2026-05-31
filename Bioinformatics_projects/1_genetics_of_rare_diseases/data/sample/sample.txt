@@ -1,5 +1,0 @@
-VariationID,GeneSymbol,DiseaseName,Chromosome,ClinicalSignificance
-
-12345,BRCA1,Breast Cancer,17,Pathogenic
-12346,TP53,Lung Cancer,17,Pathogenic
-12347,CFTR,Cystic Fibrosis,7,Benign
