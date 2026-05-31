@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS iceberg;
+
+CREATE TABLE IF NOT EXISTS iceberg.project_metadata (
+    id SERIAL PRIMARY KEY,
+    table_name VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

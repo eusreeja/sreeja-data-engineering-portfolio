@@ -1,0 +1,60 @@
+version: "3.9"
+
+services:
+
+  spark:
+    build:
+      context: ./spark
+    container_name: spark-bioinformatics
+    ports:
+      - "4040:4040"
+      - "8888:8888"
+    volumes:
+      - ../:/app
+    environment:
+      AWS_ACCESS_KEY_ID: minioadmin
+      AWS_SECRET_ACCESS_KEY: minioadmin
+      AWS_REGION: us-east-1
+    depends_on:
+      - minio
+      - postgres
+
+  postgres:
+    image: postgres:16
+    container_name: iceberg-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: iceberg
+      POSTGRES_PASSWORD: iceberg
+      POSTGRES_DB: iceberg_catalog
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  minio:
+    image: minio/minio
+    container_name: minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+  minio-init:
+    image: minio/mc
+    depends_on:
+      - minio
+    volumes:
+      - ./minio/create-buckets.sh:/create-buckets.sh
+    entrypoint: >
+      /bin/sh /create-buckets.sh
+
+volumes:
+  postgres_data:
+  minio_data:
