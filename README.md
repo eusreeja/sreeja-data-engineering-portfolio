@@ -13,7 +13,7 @@ Senior Data & Analytics Engineer | Snowflake | Azure Databricks | PySpark | Kafk
 
 Building scalable cloud data platforms, real-time streaming systems, and modern analytics architectures.
 
----
+---|||||||||||||||\qw34                                         22  4   43QW    Q34WQ43W
 
 ## 💡 What I Work On
 
