@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links, Tables and Lists</title>
+  </head>
+  <body>
+    <h1>🔗 Links, Tables and Lists</h1>
+    <p>In this section, we will learn how to create links, tables and lists in HTML.</p>
+
+    <h2>Links</h2>
+    <p>Links are created using the <code>&lt;a&gt;</code> tag. The <code>href</code> attribute specifies the URL of the page the link goes to.</p>
+    <p>Example:</p>
+    <a href="https://www.nasa.gov/">NASA</a>
+
+    <table border="3">
+    <tr>
+        <th>Athlete</th>
+        <th>Country</th>
+    </tr>
+    </table>
+
+    <h2>Explore Space</h2>
+    <p>
+    Discover the universe at
+    <a href="https://www.nasa.gov/">NASA</a>
+    — live rocket launches, Mars missions and more.
+    </p>
+    <p>
+    Explore a live 3D view of our planet at
+    <a href="https://eyes.nasa.gov/apps/earth/">NASA Eyes on the Earth</a>
+    — real satellites orbiting Earth right now.
+    </p>
+
+    <p>Since the <code>&lt;</code> and <code>&gt;</code> characters are reserved in HTML, you need to use the <code>&amp;lt;</code> and <code>&amp;gt;</code> entities to display them as text. For example:</p>
+    <pre><code>&lt;a href="https://www.nasa.gov/"&gt;NASA&lt;/a&gt;</code></pre>    
+
+    <h2>Steps to Protect Our Planet:</h2>
+    <ol>
+      <li>Switch off lights when you leave a room</li>
+      <li>Use a reusable water bottle every day</li>
+      <li>Walk or cycle instead of travelling by car</li>
+      <li>Plant a tree in your neighbourhood</li>
+      <li>Spread awareness — talk to your friends!</li>
+    </ol>
+
+
+    <h2>Incredible Natural Wonders:</h2>
+    <ul>
+      <li>Amazon Rainforest — home to 10% of all species on Earth</li>
+      <li>Great Barrier Reef — the largest coral reef, visible from space</li>
+      <li>Mount Everest — the highest point on Earth at 8,849 metres</li>
+      <li>Sahara Desert — the largest hot desert in the world</li>
+    </ul>
+
+
+    <h2>Key Terms:</h2>
+    <dl>
+      <dt>Climate Change</dt>
+      <dd>Long-term shifts in global temperature caused by human activity</dd>
+
+      <dt>Renewable Energy</dt>
+      <dd>Energy from natural sources like sunlight and wind that never run out</dd>
+
+      <dt>Biodiversity</dt>
+      <dd>The variety of all living species on Earth</dd>
+    </dl>
+
+
+
+        <table border="3">
+          <tr>
+            <th>Athlete</th>
+            <th>Country</th>
+            <th>Sport</th>
+            <th>Gold Medals</th>
+          </tr>
+          <tr>
+            <td>Michael Phelps</td>
+            <td>United States</td>
+            <td>Swimming</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>Simone Biles</td>
+            <td>United States</td>
+            <td>Gymnastics</td>
+            <td>7</td>
+          </tr>
+        </table>
+
+
+
+      <table border="3">
+        <tr>
+          <th>Athlete</th>
+          <th>Country</th>
+          <th>Sport</th>
+          <th>Gold Medals</th>
+        </tr>
+        <tr>
+          <td>Usain Bolt</td>
+          <td>Jamaica</td>
+          <td>Sprinting</td>
+          <td>8</td>
+        </tr>
+      </table>
+
+
+
+
+      <!-- Without border — cells invisible -->
+      <table>
+        <tr><td>Michael Phelps</td><td>23</td></tr>
+      </table>
+
+      <!-- With border=3 — grid visible -->
+      <table border="3">
+        <tr><td>Michael Phelps</td><td>23</td></tr>
+      </table>
+
+
+
+
+
+    <p>This will create a link that says "NASA" and takes you to https://www.nasa.gov/ when clicked.</p>
+    <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+    <p>This will create a link that says "Visit Example" and takes you to https://www.example.com when clicked.</p>
+
+    <h2>Tables</h2>
+    <p>Tables are created using the <code>&lt;table&gt;</code> tag. Inside a table, you can use the <code>&lt;tr&gt;</code> tag to define a table row, the <code>&lt;th&gt;</code> tag to define a table header, and the <code>&lt;td&gt;</code> tag to define a table cell.</p>
+    <p>Example:</p>
+    <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Athlete&lt;/th&gt;
+    &lt;th&gt;Country&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+  </body>
+</html> 

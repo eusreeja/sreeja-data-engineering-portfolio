@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+
+
+<body>
+  <h3>This is a form</h3>
+  <form>
+    <label>This is a label</label><br>
+    <button>This is a button</button>
+  </form>
+
+
+  <body>
+  <h3>This is a form</h3>
+
+  <form>
+    <fieldset>
+      <legend><h3>Personal Details</h3></legend>
+      <label>Name</label><br>
+      <input type="text" id="name"><br>
+      <label>Age</label><br>
+      <input type="text" id="age"><br>
+      <button>Submit</button>
+    </fieldset>
+  </form>
+
+
+  <form action="/action_page.php" oninput="x.value=parseInt(a.value) + parseInt(b.value)">
+  <input type="number" id="a" name="a">
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output><br><br>
+  </form>
+
+
+  <form>
+  <label>Choose a car:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</form>
+
+
+<!--
+1) Start the HTML document with `<!DOCTYPE html>` to indicate an HTML5 page.
+
+2) Open the `<html>` tag to wrap the entire webpage.
+
+3) Inside the `<head>` section:
+   a) Add `<meta charset="utf-8">` to support special characters.
+   b) Add `<meta name="viewport" content="width=device-width">` to make the page responsive.
+   c) Set the browser tab title using `<title>replit</title>`.
+   d) Link an external CSS file using `<link href="style.css" rel="stylesheet" type="text/css" />`.
+
+4) Inside the `<body>` section:
+   a) Add a main heading `<h1>`: "Personal Details Form".
+
+5) Create a form using the `<form>` tag:
+   (This collects user input.)
+
+6) Add a Name field:
+   a) Use `<label>` to show the field name.
+   b) Use `<input type="text">` to take text input.
+   c) Use `<br>` tags to move to new lines and add spacing.
+
+7) Add an Email ID field:
+   a) Use a `<label>` for "Email ID".
+   b) Use `<input type="text">` for the email input box.
+
+8) Add a Contact Number field (hidden input):
+   a) Use a `<label>` describing it.
+   b) Use `<input type="password">` so typed characters appear hidden (dots/asterisks).
+
+9) Add Gender selection using radio buttons:
+   a) Use `<input type="radio">` so the user can select only one option.
+   b) Both radio buttons share the same `name="gender"` so they act as one group.
+   c) Add options for Female and Male.
+
+10) Add Favourite City selection using checkboxes:
+    a) Use `<input type="checkbox">` so the user can select multiple cities.
+    b) Provide options like New Delhi and Mumbai.
+
+11) Add a Submit button using `<input type="submit">`
+    to submit the form data.
+
+12) Close the `<form>`, `<body>`, and `<html>` tags to finish the document.
+-->
+
+
+
+<-- Example of a form with various input types -->
+
+<!--
+1) Start the HTML document with `<!DOCTYPE html>` to indicate an HTML5 page.
+
+2) Open the `<html>` tag to wrap the entire webpage.
+
+3) Inside the `<head>` section:
+   a) Add `<meta charset="utf-8">` to support special characters.
+   b) Add `<meta name="viewport" content="width=device-width">` to make the page responsive.
+   c) Set the browser tab title using `<title>replit</title>`.
+   d) Link an external CSS file using `<link href="style.css" rel="stylesheet" type="text/css" />`.
+
+4) Inside the `<body>` section:
+   a) Create a form using the `<form>` tag.
+
+5) Use the `<fieldset>` tag inside the form:
+   a) `fieldset` groups related form elements together.
+   b) It also draws a box around the grouped inputs.
+
+6) Use the `<legend>` tag inside the fieldset:
+   a) This gives a title to the fieldset box.
+   b) Here it displays "Personal Information:".
+
+7) Add a "Full name" input field:
+   a) Use `<label>` to show the field name.
+   b) Use `<input type="text">` to take user name input.
+   c) Use the `placeholder` attribute to show a hint ("Enter Name") inside the box.
+
+8) Add an "Email" input field:
+   a) Use `<label>` for Email.
+   b) Use `<input type="text">` to take email input.
+
+9) Add "Gender" radio button options:
+   a) Use `<input type="radio">` to allow selecting only one option.
+   b) Provide two options: Female and Male.
+   c) Use `<br>` tags to place each option on a new line.
+
+10) Add a Birthday input field:
+    a) Use `<label>` for Birthday.
+    b) Use `<input type="date">` so the user can pick a date from a calendar.
+
+11) Close the `<fieldset>`, `<form>`, `<body>`, and `<html>` tags to end the page.
+-->
+
+<-- Example of a form with fieldset and legend -->
+
+<!--
+1) Start the HTML document with `<!DOCTYPE html>` to specify this is an HTML5 webpage.
+
+2) Open the `<html>` tag to wrap the whole page.
+
+3) Create the `<head>` section:
+   a) Add `<meta charset="utf-8">` to support special characters.
+   b) Add `<meta name="viewport" content="width=device-width">` to make the page responsive.
+   c) Set the page title using `<title>replit</title>`.
+   d) Link an external stylesheet using `<link href="style.css" rel="stylesheet" type="text/css" />`.
+
+4) Create the `<body>` section:
+   (All visible content is written here.)
+
+5) Use `<fieldset>` to group related form elements inside a box.
+
+6) Use `<legend>` to give the fieldset a title:
+   a) Display "Enter your Marks" in bold.
+
+7) Create a `<form>`:
+   a) `action="/action_page.php"` specifies where form data will be sent when submitted.
+   b) `oninput="..."` runs whenever the user types/changes any input in the form.
+
+8) Use the `oninput` expression to calculate the average marks:
+   a) Convert `m1`, `m2`, and `m3` values to integers using `parseInt(...)`.
+   b) Add the three marks and divide by 3.
+   c) Store the result into the output field using `x.value = (...)`.
+
+9) Add a Name field:
+   a) Use `<label>` to show "Name".
+   b) Use `<input type="text" id="name">` to take the student's name.
+
+10) Add marks input for Subject 1:
+    a) Use a `<select>` dropdown to choose the subject (Maths/English/Science).
+    b) Use `<input type="number" id="m1" name="m1">` to enter marks for subject 1.
+
+11) Add marks input for Subject 2:
+    a) Use another `<select>` dropdown for subject 2.
+    b) Use `<input type="number" id="m2" name="m2">` to enter marks for subject 2.
+
+12) Add marks input for Subject 3:
+    a) Use another `<select>` dropdown for subject 3.
+    b) Use `<input type="number" id="m3" name="m3">` to enter marks for subject 3.
+
+13) Display the calculated average using the `<output>` tag:
+    a) `name="x"` matches the variable used in the `oninput` calculation.
+    b) `for="m1 m2 m3"` indicates the output depends on these inputs.
+
+14) Close the `<form>`, `<fieldset>`, `<body>`, and `<html>` tags to complete the webpage.
+-->
+
+
+<-- Example of a form that calculates average marks based on user input -->
+
+
+
+
+</body>
+
+
+
+</body>
+</html>
